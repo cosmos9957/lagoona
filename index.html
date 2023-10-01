@@ -1,21 +1,182 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Lagoona</title>
 </head>
 <body>
-  <header></header>
-  <main>
+  <header class="header">
+    <div class="container">
+      <a class="logo-header" href="index.html"></a>
+      <img src="/img/logo.svg" alt="Логотип Лагуны">
+      <div class="header-contacts">
+        <a class="header-contacts-link" href="74953225448">
+          +7 495 322-54-48
+        </a>
+      </div>
+      <div class="header-login">
+        <div class="header-login-arrow"></div>
+        <img class="header-login-logo" src="/img/vector.svg" alt="Логотип личного кабинета">
+        <!-- Это декоративное изображение. Лучше перебросить в CSS. -->
+        <span class="header-login-desc">Личный кабинет</span>
+      </div>
+    </div>
+  </header>
+  <nav class="nav-top">
+    <div class="container">
+      <div class="nav-top-left">
+        <ul class="nav-top-left-list">
+          <li class="nav-top-left-item">
+            <a class="nav-top-left-link" href="">О нас</a>
+          </li>
+          <li class="nav-top-left-item">
+            <a class="nav-top-left-link" href="">Услуги</a>
+          </li>
+          <li class="nav-top-left-item">
+            <a class="nav-top-left-link" href="">Преимущества</a>
+          </li>
+          <li class="nav-top-left-item">
+            <a class="nav-top-left-link" href="">Размещение</a>
+          </li>
+          <li class="nav-top-left-item">
+            <a class="nav-top-left-link" href="">Блог</a>
+          </li>
+          <li class="nav-top-left-item">
+            <a class="nav-top-left-link" href="">Контакты</a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-top-right">
+        <ul class="nav-yop-right-list">
+          <li class="nav-top-right-item">
+            <a class="nav-top-left-link" href="">Хочу тур</a>
+          </li>
+          <li class="nav-top-right-item">
+            <a class="nav-top-left-link" href="">Обратный звонок</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main class="main">
+    <div class="container">
+      <section class="section-offers">
+        <header class="section-offers-header">
+          <h1 class="section-heading">Спецпредложения</h1>
+        </header>
+          <div class="section-offers-leftside">
+            <div class="section-offers-top-left">
+              <h2 class="section-offers-heading-leftside">Мальдивские острова</h2>
+              <span class="">от 55 000 &#8381</span>
+              <a class="section-offers-link" href="">
+                <span class="section-offers-icon">Подробнее</span>
+              </a>
+            </div>
+            <div class="section-offers-bottom-left">
+              <h2 class="section-offers-heading-leftside">Горящий тур на остров Крит</h2>
+              <span class="">от 30 000 &#8381</span>
+              <a class="section-offers-link" href="">
+                <span class="section-offers-icon">Подробнее</span>
+              </a>
+            </div>
+          </div>
+          <div class="section-offers-right">
+            <h2 class="section-offers-heading-rightside">Номера категории люкс</h2>
+            <span class="">от 5 000 &#8381</span>
+            <a class="section-offers-link" href="">
+              <span class="section-offers-icon">Подробнее</span>
+            </a>
+          </div>
+          <!-- *Всё поле каждого блока секции можно сделать функциональным, для клика юзера-->
+      </section>
+    </div>
+    <div class="container">
+      <section class="section-us">
+        <header class="section-us-header">
+          <h1 class="section-heading">О нас</h1>
+        </header>
+        <main class="section-us-main">
+          <p class="section-us-desc">Идейные соображения высшего порядка,а также сложившаяся структура организации влечёт за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям. Идейные соображения высшего порядка,а также дальнейшее развитие различных форм деятельности представляет собой интересный эксперимент проверки системы обучения кадров, соответствует насущным потребностям. Равным образом сложившаяся структура организации требуют определения и уточнения существенных финансовых и административных условий.</p>
+        </main>
+      </section>
+    </div>
+    <div class="container">
+      <section class="section-services">
+        <header class="section-services-header">
+          <h1 class="section-heading">Услуги</h1>
+        </header>
+          <ul class="section-services-list">
+            <li class="section-services-list-item">
+              <a class="section-services-item-link" href="">Эксклюзивное обслуживание</a>
+              <span class="section-services-icon"></span>
+              <p class="section-services-item-desc">Равным образом постоянный количественный рост и сфера нашей активности</p>
+            </li>
+            <li class="section-services-list-item">
+              <a class="section-services-item-link" href="">Аренда банкетных залов</a>
+              <span class="section-services-icon"></span>
+              <p class="section-services-item-desc">Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм</p>
+            </li>
+            <li class="section-services-list-item">
+              <a class="section-services-item-link" href="">Сауны, бассейны, бани, фитнес-залы</a>
+              <span class="section-services-icon"></span>
+              <p class="section-services-item-desc">Не следует, однако забывать, что начало повседневной работы по формированию позиции</p>
+            </li>
+            <li class="section-services-list-item">
+              <a class="section-services-item-link" href="">Охраняемые автомобильные стоянки</a>
+              <span class="section-services-icon"></span>
+              <p class="section-services-item-desc">Не следует, однако забывать, что начало повседневной работы по формированию позиции</p>
+            </li>
+          </ul>
+      </section>
+    </div>
+    <div class="container"></div>
+      <section class="section-advantages">
+        <header class="section-services-header">
+          <h1 class="section-heading">Преимущества</h1>
+        </header>
+          <ul class="section-advantages-list">
+            <li class="section-advantages-item">
+              <span class="section-advantages-icon"></span>
+              <p class="section-advantages-desc">Идейные соображения высшего порядка,
+                а также постоянный количественный рост</p>
+            </li>
+            <li class="section-advantages-item">
+              <span class="section-advantages-icon"></span>
+              <p class="section-advantages-desc">Значимость этих проблем настолько очевидна, что вопрос остаётся открытым</p>
+            </li>
+            <li class="section-advantages-item">
+              <span class="section-advantages-icon"></span>
+              <p class="section-advantages-desc">Таким образом реализация плановых заданий играет важную роль для понимания</p>
+            </li>
+            <li class="section-advantages-item">
+              <span class="section-advantages-icon"></span>
+              <p class="section-advantages-desc">Повседневная практика показывает, что сложившаяся структура организации</p>
+            </li>
+            <li class="section-advantages-item">
+              <span class="section-advantages-icon"></span>
+              <p class="section-advantages-desc">Равным образом рамки и место обучения кадров способствует подготовки сотрудника</p>
+            </li>
+            <li class="section-advantages-item">
+              <span class="section-advantages-icon"></span>
+              <p class="section-advantages-desc">Консультация с активом влечёт за собой процесс внедрения услуг нашего сервиса</p>
+            </li>
+            <li class="section-advantages-item">
+              <span class="section-advantages-icon"></span>
+              <p class="section-advantages-desc">Повседневная практика показывает, что дальнейшее развитие различных</p>
+            </li>
+            <li class="section-advantages-item">
+              <span class="section-advantages-icon"></span>
+              <p class="section-advantages-desc">Значимость этого настолько очевидна, что консультация наших экспертов помогает</p>
+            </li>
+          </ul>
+      </section>
+    </div>
     <section></section>
     <section></section>
     <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <footer></footer>
-  </main>
+  </main>  
+  <footer class="footer">
+  </footer>
 </body>
 </html>
